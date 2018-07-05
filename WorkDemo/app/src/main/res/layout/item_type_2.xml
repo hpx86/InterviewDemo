@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tv_yieldvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="0dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="4.95%"
+        android:textColor="@color/color_red"/>
+
+    <TextView
+        android:id="@+id/tv_yieldtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:layout_below="@id/tv_yieldvalue"
+        android:layout_alignLeft="@id/tv_yieldvalue"
+        android:textSize="10sp"
+        android:text="预期年化收益率"
+        android:textColor="@color/color_gray"/>
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@id/tv_yieldvalue"
+        android:background="@color/color_gray"/>
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignBottom="@id/tv_yieldvalue"
+        android:gravity="center_vertical"
+        android:textSize="12sp"
+        android:text="江苏“聚宝财富聚溢融”B6客户Y21(定制)APP"
+        android:lines="1"
+        android:maxEms="10"
+        android:ellipsize="end"/>
+
+    <TextView
+        android:id="@+id/tv_term"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:layout_alignLeft="@id/tv_content"
+        android:layout_alignBottom="@id/tv_yieldtitle"
+        android:background="@drawable/text_shape"
+        android:textSize="10sp"
+        android:text="187天 5万元起购"
+        android:textColor="@color/color_blue"/>
+
+</RelativeLayout>

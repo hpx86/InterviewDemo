@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">WorkDemo</string>
+//新股申购、股基大数据、盯盘助手、条件单、银河开户、银河优顾、资产全景、财富日历、
+    //大盘指数、沪深市场
+    <string-array name="titles">
+        <item>新股申购</item>
+        <item>股基大数据</item>
+        <item>盯盘助手</item>
+        <item>条件单</item>
+        <item>银河开户</item>
+
+        <item>银河优顾</item>
+        <item>资产全景</item>
+        <item>财富日历</item>
+        <item>大盘指数</item>
+        <item>沪深市场</item>
+
+
+    </string-array>
+</resources>
